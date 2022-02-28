@@ -1,0 +1,108 @@
+.buy, .programm {
+  background-color: #CBCBCB;
+}
+
+.color1 {
+  color: grey;
+}
+
+header,
+footer,
+section {
+  padding: 100px 0;
+}
+
+header {
+  padding: 200px 0;
+}
+
+.btn__play {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  background-color: #00d4ff;
+}
+
+.btn__play:hover {
+  background-color: grey;
+}
+
+header {
+  background: url(../img/pattern.png), grey;
+  background: url(../img/pattern.png), -webkit-gradient(linear, left top, right top, from(#020024), color-stop(16%, grey), to(#00d4ff));
+  background: url(../img/pattern.png), linear-gradient(90deg, #020024 0%, grey 16%, #00d4ff 100%);
+  background-size: contain;
+}
+
+header .play-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #00d4ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin: 30px auto 30px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+header .play-button .play-triangle {
+  border: 20px solid transparent;
+  border-left: 20px solid grey;
+  -webkit-transform: translate(30%);
+          transform: translate(30%);
+}
+
+.about i {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.about .circle {
+  border: 2px solid #00d4ff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px auto;
+}
+
+.about .line {
+  width: 100px;
+  height: 3px;
+  background-color: grey;
+  margin: 30px auto 30px;
+}
+
+.forwhoom h5 {
+  padding: 50px;
+  border: 2px solid #00d4ff;
+}
+
+.programm .accordion-button:not(.collapsed) {
+  background-color: #00d4ff;
+}
+
+footer {
+  background: url(../img/pattern.png), grey;
+  background: url(../img/pattern.png), -webkit-gradient(linear, left top, right top, from(#020024), color-stop(16%, grey), to(#00d4ff));
+  background: url(../img/pattern.png), linear-gradient(90deg, #020024 0%, grey 16%, #00d4ff 100%);
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,117 @@
+$color1: grey;
+$color2: #00d4ff;
+
+
+.buy, .programm {
+	background-color: #CBCBCB;
+}
+
+
+.color1 {
+	color: $color1;
+}
+
+header,
+footer,
+section {
+	padding: 100px 0;
+}
+
+header {
+	padding: 200px 0;
+}
+
+
+.btn__play {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	background-color: $color2;
+
+	&:hover {
+
+		background-color: $color1;
+	}
+}
+
+header {
+	background: url(../img/pattern.png), $color1;
+	background: url(../img/pattern.png), linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, $color1 16%, $color2 100%);
+	background-size: contain;
+
+	.play-button {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: $color2;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		margin: 30px auto 30px;
+		transition: all 0.2s ease;
+
+		.play-triangle {
+			border: 20px solid transparent;
+			border-left: 20px solid $color1;
+			transform: translate(30%);
+		}
+
+	}
+
+
+}
+
+.about {
+
+	i {
+		transform: scale(1.5);
+
+	}
+
+	.circle {
+		border: 2px solid $color2;
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10px auto;
+	}
+
+	.line {
+		width: 100px;
+		height: 3px;
+		background-color: $color1;
+		margin: 30px auto 30px;
+	}
+
+
+}
+
+.forwhoom {
+
+
+	h5 {
+		padding: 50px;
+		border: 2px solid $color2;
+	}
+}
+
+
+.programm {
+
+
+	.accordion-button:not(.collapsed) {
+		background-color: $color2;
+	}
+}
+
+
+footer {
+	background: url(../img/pattern.png), $color1;
+	background: url(../img/pattern.png), linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, $color1 16%, $color2 100%);
+	background-size: contain;
+}

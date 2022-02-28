@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/fontello.css">
+	<link rel="stylesheet" href="./css/css/style.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center text-white">Верстка Bootstrap</h1>
+					<div class="play-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+						<div class="play-triangle"></div>
+					</div>
+					<a href="#footer" class="btn__play btn btn-large text-uppercase text-white ">Order</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center text-uppercase color1 mb-5">О продукте</h2>
+				</div>
+				<div class="row">
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-list-numbered"></i></div>
+						<h5 class="text-center">Структурная занятость</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-location"></i></div>
+						<h5 class="text-center">Невероятная прибыль</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-phone"></i></div>
+						<h5 class="text-center">Огромный оборот</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-heart"></i></div>
+						<h5 class="text-center">Поставщики из разных стран</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-upload-cloud-outline"></i></div>
+						<h5 class="text-center">Структурная занятость</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-chart-bar"></i></div>
+						<h5 class="text-center">Инвестиции</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-help"></i></div>
+						<h5 class="text-center">Структурная занятость</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-thumbs-up"></i></div>
+						<h5 class="text-center">Структурная занятость</h5>
+						<div class="line"> </div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="circle text-center"><i class="icon-group"></i></div>
+						<h5 class="text-center">Структурная занятость</h5>
+						<div class="line"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="forwhoom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center text-uppercase color1 mb-5">Наши возможности</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-6 col-sm-12">
+					<h5 class="text-center">Научиться инвестировать</h5>
+				</div>
+				<div class="col-xl-6 col-sm-12">
+					<h5 class="text-center">Анализировать вклады</h5>
+				</div>
+				<div class="col-xl-6 col-sm-12">
+					<h5 class="text-center">Предвидеть рост</h5>
+				</div>
+				<div class="col-xl-6 col-sm-12">
+					<h5 class="text-center">Не бояться идти на риск</h5>
+				</div>
+
+			</div>
+			<a class="btn__play btn btn-large text-uppercase text-white mt-5" href="#footer">Заказать</a>
+		</div>
+	</section>
+
+
+	<section class="programm">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center text-uppercase color1 mb-5">Наши возможности</h2>
+				</div>
+				<div class="col-xl-4 col-md-6 col-sm-12">
+					<h3 class="text-white text-center mb-5">Модуль 1</h3>
+					<div class="accordion" id="a1">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="h1">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+									Инструменты
+								</button>
+							</h2>
+							<div id="c1" class="accordion-collapse collapse show" aria-labelledby="h1"
+								data-bs-parent="#a1">
+								<div class="accordion-body">
+									<strong>This is the first item's accordion body.</strong> It is shown by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="h2">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+									Аналитика
+								</button>
+							</h2>
+							<div id="c2" class="accordion-collapse collapse" aria-labelledby="h2"
+								data-bs-parent="#a1">
+								<div class="accordion-body">
+									<strong>This is the second item's accordion body.</strong> It is hidden by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="h3">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c3" aria-expanded="false" aria-controls="c3">
+									Расходы
+								</button>
+							</h2>
+							<div id="c3" class="accordion-collapse collapse" aria-labelledby="h3"
+								data-bs-parent="#a1">
+								<div class="accordion-body">
+									<strong>This is the third item's accordion body.</strong> It is hidden by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-md-6 col-sm-12">
+					<h3 class="text-white text-center mb-5">Модуль 2</h3>
+					<div class="accordion" id="a2">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="h11">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c11" aria-expanded="true" aria-controls="c11">
+									Приемы
+								</button>
+							</h2>
+							<div id="c11" class="accordion-collapse collapse show" aria-labelledby="h11"
+								data-bs-parent="#a2">
+								<div class="accordion-body">
+									<strong>This is the first item's accordion body.</strong> It is shown by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="h22">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c22" aria-expanded="false" aria-controls="c22">
+									Способы
+								</button>
+							</h2>
+							<div id="c22" class="accordion-collapse collapse" aria-labelledby="h22"
+								data-bs-parent="#a2">
+								<div class="accordion-body">
+									<strong>This is the second item's accordion body.</strong> It is hidden by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingThree">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+									data-bs-target="#c33" aria-expanded="false" aria-controls="c33">
+									Руководство
+								</button>
+							</h2>
+							<div id="c33" class="accordion-collapse collapse" aria-labelledby="headingThree"
+								data-bs-parent="#a2">
+								<div class="accordion-body">
+									<strong>This is the third item's accordion body.</strong> It is hidden by default,
+									until the collapse plugin adds the appropriate classes that we use to style each
+									element. These classes control the overall appearance, as well as the showing and
+									hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+									our default variables. It's also worth noting that just about any HTML can go within
+									the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-md-6 col-sm-12">
+					<h3 class="text-white text-center mb-5">Модуль 3</h3>
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  Цель
+							</button>
+						  </h2>
+						  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							  План
+							</button>
+						  </h2>
+						  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						  </div>
+						</div>
+						<div class="accordion-item">
+						  <h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							  Реализация
+							</button>
+						  </h2>
+						  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+							  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+							</div>
+						  </div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="learning">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center color1">Уникальные технологии</h2>
+				</div>
+			</div>
+			<div class="row align-items-center  mb-5">
+				<div class="col-lg-9 col-sm-12 mb-sm-5" >
+					<h5>Индивидуальное обучение Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quasi expedita tempora? Non quas eos fuga nemo minus tempora aperiam voluptas cumque nobis deserunt. Dolorem praesentium magnam vel corrupti?</h5>
+					<h5>Необычный подход</h5>
+					<h5>Передовые технологии приобретайте <a href="./newpage" target="_blank">тут</a></h5>
+					<h5>Последние новинки
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam magni facilis totam voluptates, qui voluptas. Rerum impedit quae autem tenetur distinctio assumenda dolorum sunt omnis, dignissimos, molestias ea alias!
+					</h5>
+					<h5>Лучшее для вас</h5>
+				</div>
+			
+			<div class="col-lg-3 col-sm-12 mb-sm-5 mt-sm-5 text-center">
+				<img class="img-fluid" src="./img/mockup.png" alt="">
+			</div>
+		</div>
+		<a href="#footer" class="btn__play btn btn-large text-uppercase text-white ">Order</a>
+		</div>
+	</section>
+
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Modal window
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="buy">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center text-uppercase color1 mb-5">Купить</h2>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-lg-5 col-sm-12">
+					<img src="./img/preview.png" alt="" class="img-fluid mx-auto d-block">
+				</div>
+			</div>
+			<div class="row row align-items-center justify-content-center">
+				<div class="col-lg-5 col-sm-12">
+					<form class="text">
+						<div class="mb-3">
+						  <label for="exampleInputEmail1" class="form-label">Почта</label>
+						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
+						<div class="mb-3">
+						  <label for="exampleInputPassword1" class="form-label">Коментарий</label>
+						  <input type="password" class="form-control" id="exampleInputPassword1">
+						</div>
+						<div class="mb-3 form-check">
+						  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<div class="d-md-flex justify-content-center">
+							<button type="submit" class="btn btn-primary ">Submit</button>
+						</div>
+					  </form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<footer></footer>
+
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
